@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView android:id="@+id/text1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:clickable="true"
+        android:focusable="true"
+        
+        android:textSize="30sp"
+        android:background="#FF0000"        
+        android:text="@string/hello" />
+
+    <Button
+        android:id="@+id/get_int"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="int" />
+
+    <Button
+        android:id="@+id/get_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="string" />
+
+    <Button
+        android:id="@+id/call_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="callback" />
+</LinearLayout>
